@@ -1,0 +1,426 @@
+# Goal
+
+Create a premium personal branding landing page for Abhishek Datta.
+
+The site should help visitors quickly understand who Abhishek is, what he has built, what his career has been so far, what he is especially strong at, and where he is headed next.
+
+This should not feel like a generic resume website or a template portfolio. It should feel like a polished personal brand site for someone who combines deep software engineering experience, MBA/product training, and a strong interest in AI agents and product systems.
+
+I will attach two resumes:
+1. A PM-focused resume
+2. An SDE-focused resume
+
+Use both resumes as source material. The resumes are the source of truth for exact dates, titles, company names, metrics, and wording where available. Do not fabricate details. If something is unclear, phrase it carefully or omit it.
+
+# Core Positioning
+
+Abhishek is a software engineer turned MBA candidate building toward a career at the intersection of:
+
+- AI agents
+- Product engineering
+- Developer tooling
+- Workflow automation
+- Productivity tools
+- Language learning and education technology
+- Human-centered AI products
+
+The site should make this identity clear:
+
+Engineer + MBA + AI Builder
+
+Suggested positioning ideas:
+
+“Building AI agents and product systems for real-world workflows.”
+
+“I’m a UCLA Anderson MBA candidate and former Microsoft/Adobe software engineer building AI-powered tools across developer productivity, learning, communication, and workflow automation.”
+
+“Software engineer turned MBA candidate focused on AI agents, product systems, and tools that turn messy workflows into structured, useful experiences.”
+
+# Target Audience
+
+The site should work well for:
+
+- AI startup founders
+- Recruiters
+- Product leaders
+- Engineering leaders
+- MBA classmates and alumni
+- Potential collaborators
+- Investors or advisors who may look at Abhishek’s work
+
+The visitor should leave with this impression:
+
+“Abhishek has serious engineering depth, strong product judgment, and a clear direction toward AI products and agentic systems.”
+
+# Tone and Writing Style
+
+The copy should sound human, confident, specific, and grounded.
+
+Avoid:
+- Generic AI language
+- Over-polished corporate wording
+- Vague phrases like “passionate about innovation”
+- Inflated claims
+- Buzzword stuffing
+- Long, dense paragraphs
+- Anything that sounds like a LinkedIn cliché
+
+Prefer:
+- Short, sharp sentences
+- Specific proof points
+- Clear project framing
+- Warm but professional tone
+- Founder-friendly language
+- Concrete examples of what was built and why it matters
+
+Good style:
+“Built an internal AI harness at Microsoft that helped agents generate Playwright end-to-end tests using repo context, evals, and iterative repair loops.”
+
+Bad style:
+“Passionate about leveraging cutting-edge artificial intelligence to revolutionize software quality assurance.”
+
+# Overall Site Narrative
+
+The site should tell a coherent story:
+
+Abhishek started as a software engineer building serious production systems at Microsoft and Adobe. Over time, he became increasingly interested in AI agents, developer tools, productivity, and products that help people learn and work better. At UCLA Anderson, he is combining engineering depth with product, strategy, and startup thinking.
+
+The site should not just list projects. It should make the career arc feel intentional.
+
+# Recommended Page Structure
+
+Create a single landing page with the following sections:
+
+1. Hero
+2. Credibility Snapshot
+3. Featured AI and Product Builds
+4. Production Engineering Work
+5. Skills and Strengths
+6. Career Direction
+7. Experience Timeline
+8. Personal Layer
+9. Contact CTA
+
+# Section 1: Hero
+
+The hero should immediately explain who Abhishek is and what he is building toward.
+
+Include:
+- Name: Abhishek Datta
+- Strong headline
+- Short supporting paragraph
+- Clear calls to action
+
+Suggested headline:
+“Building AI agents and product systems for real-world workflows.”
+
+Suggested supporting copy:
+“I’m a UCLA Anderson MBA candidate and former Microsoft/Adobe software engineer. I’ve built production systems at scale and AI tools across developer productivity, language learning, communication, and proposal workflows.”
+
+Possible CTAs:
+- View Projects
+- View Resume
+- Contact Me
+
+The hero should feel premium, sharp, and serious. It should not feel flashy or gimmicky.
+
+# Section 2: Credibility Snapshot
+
+Create a compact section that quickly establishes credibility.
+
+Potential proof points:
+- UCLA Anderson MBA candidate
+- Former Microsoft software engineer
+- Former Adobe software engineer
+- IIT Kanpur graduate
+- Built AI agent systems
+- Built production systems for Microsoft Word Web
+- Hackathon winner for AI agent work
+- Experience across product engineering, AI agents, developer tools, and reliability
+
+Use exact wording and metrics from the resumes when available.
+
+# Section 3: Featured AI and Product Builds
+
+This should be one of the most important sections of the site.
+
+Present these as polished project stories, not just project names.
+
+Each project should answer:
+- What problem does it address?
+- What did Abhishek build?
+- Why does it matter?
+- What skills or themes does it show?
+
+## Project 1: AI Playwright Test Agent / AI Test Harness
+
+This was an internal Microsoft project. There is no public demo or public code. Make that clear.
+
+Suggested framing:
+“Built an internal AI harness at Microsoft that enabled agents to generate end-to-end Playwright tests from developer prompts using repo-aware context, helper discovery, TypeScript validation, evals, and iterative repair loops.”
+
+Why it matters:
+This is one of Abhishek’s strongest AI-agent proof points. It shows experience with agentic workflows, evals, developer tooling, test automation, and production constraints.
+
+Possible themes:
+AI agents, Playwright, TypeScript, evals, developer tools, test automation, repo-aware context, iterative repair.
+
+Display note:
+“Internal Microsoft project. Demo/code not public.”
+
+## Project 2: TacNet
+
+Public project.
+
+GitHub:
+https://github.com/abdatta/tacnet-yc
+
+Suggested framing:
+“An on-device AI communications system for high-stakes environments where connectivity is unreliable, latency matters, and privacy cannot be optional.”
+
+Why it matters:
+This shows Abhishek’s interest in local-first AI, edge intelligence, private AI workflows, and resilient communication systems.
+
+Possible themes:
+On-device AI, local-first systems, agents, privacy, resilience, high-stakes communication.
+
+## Project 3: Kingmaker
+
+Suggested framing:
+“An AI proposal-generation agent that helps teams turn complex opportunities into structured, high-quality proposals by assembling context, drafting sections, and checking requirements.”
+
+Why it matters:
+This shows workflow automation, document intelligence, structured generation, research, and enterprise AI use cases.
+
+Possible themes:
+AI agents, proposal generation, workflow automation, structured documents, research, compliance.
+
+## Project 4: WhatsApp Scheduler and Analyzer
+
+Suggested framing:
+“An AI layer for messy WhatsApp workflows that can organize chats into threads, make messages searchable, surface insights, and support scheduling or reminders.”
+
+Why it matters:
+This shows consumer productivity thinking, communication intelligence, personal workflow automation, and agentic UX.
+
+Possible themes:
+AI productivity, WhatsApp, search, scheduling, message intelligence, automation.
+
+## Project 5: NihongoFlash / KikiJLPT
+
+Suggested framing:
+“Japanese language learning tools designed around vocabulary practice, beginner-friendly UX, listening support, and structured JLPT-style learning.”
+
+Why it matters:
+This shows product thinking, learning design, language learning, education technology, and user-centered design.
+
+Possible themes:
+Language learning, Japanese, education, UX, learning systems.
+
+# Section 4: Production Engineering Work
+
+This section should make clear that Abhishek has built inside complex real-world systems, not only side projects.
+
+Include these as professional case studies or career highlights.
+
+## Microsoft Word Web: Lists and Bullets Reliability
+
+Suggested framing:
+“Worked on reliability infrastructure for complex collaborative document-editing scenarios in Microsoft Word Web, especially around numbered and bulleted lists.”
+
+Why it matters:
+Shows production engineering depth, collaboration systems, document editing complexity, and reliability work at scale.
+
+## TypeScript Migration Tooling
+
+Suggested framing:
+“Built tooling to support large-scale TypeScript migration workflows, including automated low-risk refactors and reviewable tasks for higher-risk code paths.”
+
+Why it matters:
+Shows developer productivity, automation, large codebase experience, and practical engineering judgment.
+
+## Performance and Reliability Engineering
+
+Suggested framing:
+“Worked on performance and reliability systems for large-scale web productivity products, with experience across telemetry, debugging, experimentation, and user-facing quality improvements.”
+
+Why it matters:
+Shows engineering maturity, systems thinking, and experience improving real user-facing products.
+
+## Adobe Experience
+
+Use the attached resume as the source of truth.
+
+Suggested framing:
+“Built and shipped enterprise product features at Adobe, contributing to customer-facing systems and product engineering work.”
+
+# Section 5: Skills and Strengths
+
+Create a section that groups Abhishek’s strengths clearly. This should not look like a keyword dump.
+
+Possible groups:
+
+AI and Agents:
+- AI agents
+- Agentic workflows
+- Evals
+- LLM-powered tools
+- RAG / context retrieval, if supported by resume or project details
+- On-device AI experimentation
+- Prompting and workflow design
+
+Product Engineering:
+- TypeScript
+- React
+- Frontend systems
+- Web apps
+- Product-quality engineering
+- UX-minded development
+
+Developer Tools:
+- Playwright
+- Test automation
+- Repo-aware tooling
+- Code migration
+- Validation loops
+- Internal engineering tools
+
+Backend and Data:
+Use resume as source of truth.
+
+Product and Business:
+- Product strategy
+- User research
+- AI product thinking
+- Cross-functional collaboration
+- Startup execution
+- MBA coursework and product training
+
+Only include skills that are supported by the resumes or the known project context.
+
+# Section 6: Career Direction
+
+This section should explain where Abhishek is headed.
+
+Suggested heading:
+“Where I’m headed”
+
+Suggested copy:
+“I’m focused on AI products that turn messy, high-friction workflows into structured, useful systems. The areas I’m most interested in are AI agents, developer tooling, productivity, language learning, workflow automation, and roles where I can stay close to both users and the product.”
+
+Also include:
+“Currently exploring AI product, product engineering, technical PM, and founder’s office opportunities where engineering depth and product judgment both matter.”
+
+This section should make the MBA transition feel intentional and credible.
+
+# Section 7: Experience Timeline
+
+Create a clean career timeline using exact dates, roles, and company names from the attached resumes.
+
+Likely entries:
+- UCLA Anderson
+- Microsoft
+- Adobe
+- Any startup or AI experience listed in the resumes
+- IIT Kanpur
+
+Each entry should have one crisp impact-oriented line. Avoid copying long resume bullets directly unless they are especially strong.
+
+Example style:
+“Microsoft · Software Engineer”
+“Built across Word Web, reliability, collaboration systems, performance, and AI-powered developer tooling.”
+
+# Section 8: Personal Layer
+
+Include a short section that makes Abhishek feel memorable and human.
+
+Possible details:
+- Originally from Kolkata, India
+- Interested in making education and AI more accessible
+- Loves singing
+- Enjoys trekking
+- Learning Japanese
+- Interested in time-travel stories and creative writing
+
+Suggested heading:
+“Beyond the build”
+
+Suggested copy:
+“Outside work, I’m usually learning Japanese, singing, trekking, or thinking about stories involving time travel and emotional stakes. A lot of my work comes back to one theme: making powerful tools easier for more people to access.”
+
+Keep this section short. It should add warmth without distracting from the professional story.
+
+# Section 9: Contact CTA
+
+End with a strong, simple call to action.
+
+Suggested copy:
+“Want to talk AI agents, product engineering, developer tools, education, or early-stage ideas? I’d love to connect.”
+
+Include:
+- Email
+- LinkedIn
+- GitHub
+- Resume download
+- Calendar link if available
+
+Use real details from the resumes where available. Otherwise use placeholders that are easy to replace.
+
+# Important Exclusions
+
+Do not present these as built projects:
+- CollectIt
+- AV Incident Command Center / AV Centre
+- Parently Learn
+
+These were ideas explored, not built products. Do not include them in the main projects section.
+
+For this version, omit them entirely unless explicitly instructed otherwise.
+
+# Visual and Brand Direction
+
+The site should feel:
+- Premium
+- Modern
+- Calm
+- Intelligent
+- Slightly futuristic
+- Product-led
+- Founder-friendly
+- Credible for both PM and AI/product-engineering roles
+
+Avoid:
+- Generic portfolio templates
+- Cartoonish AI robot visuals
+- Overused purple-blue SaaS gradients
+- Stock-photo-heavy sections
+- Dense resume blocks
+- Excessive icons
+- Flashy effects that reduce credibility
+
+The design should create a strong first impression within 5 seconds.
+
+# Quality Bar
+
+A visitor should be able to quickly answer:
+
+1. Who is Abhishek?
+2. Why is he credible?
+3. What has he built?
+4. What is his technical depth?
+5. What product direction is he moving toward?
+6. Why should I talk to him?
+
+The site should feel like a personal brand page, not just a resume converted into a webpage.
+
+# Final Output Expectations
+
+Create the complete landing page.
+
+After finishing, summarize:
+1. The overall narrative used for the site
+2. The sections created
+3. Any assumptions made
+4. Any placeholders Abhishek still needs to fill, such as links, headshot, resume files, or contact details
+
+Most important: keep the content honest, specific, and grounded in the attached resumes and the project context above.
