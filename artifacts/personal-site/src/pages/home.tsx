@@ -256,29 +256,36 @@ export default function Home() {
                 </div>
               </motion.div>
 
-              {/* Project 3: Kingmaker */}
+              {/* Project 3: NihongoFlash */}
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}
-                className="group bg-card rounded-2xl p-8 border border-border flex flex-col h-full hover:border-violet-300 hover:shadow-lg hover:shadow-violet-100 transition-all duration-300 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-violet-400 to-violet-600 rounded-l-2xl" />
+                className="group bg-card rounded-2xl p-8 border border-border flex flex-col h-full hover:border-rose-300 hover:shadow-lg hover:shadow-rose-100 transition-all duration-300 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-rose-400 to-rose-600 rounded-l-2xl" />
                 <div className="pl-4 flex flex-col h-full">
                   <div className="flex justify-between items-start mb-5">
                     <div>
-                      <span className="text-xs font-mono text-violet-600 uppercase tracking-wider font-bold">Workflow Automation</span>
-                      <h3 className="text-2xl font-bold mt-1">Kingmaker</h3>
+                      <span className="text-xs font-mono text-rose-600 uppercase tracking-wider font-bold">EdTech</span>
+                      <h3 className="text-2xl font-bold mt-1">NihongoFlash / KikiJLPT</h3>
                     </div>
-                    <a href="https://github.com/abdatta/kingmaker" target="_blank" rel="noreferrer"
-                      className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
-                      data-testid="link-github-kingmaker">
-                      <SiGithub className="w-5 h-5" />
-                    </a>
+                    <div className="flex gap-1.5">
+                      <a href="https://github.com/abdatta/nihongo-flash" target="_blank" rel="noreferrer"
+                        className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
+                        data-testid="link-github-nihongo">
+                        <SiGithub className="w-5 h-5" />
+                      </a>
+                      <a href="https://github.com/abdatta/kiki-jlpt" target="_blank" rel="noreferrer"
+                        className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
+                        data-testid="link-github-kiki">
+                        <SiGithub className="w-5 h-5" />
+                      </a>
+                    </div>
                   </div>
                   <div className="space-y-3 flex-grow text-sm text-muted-foreground">
-                    <p><strong className="text-foreground">Problem:</strong> Turning complex opportunities into structured, high-quality proposals takes enormous human effort.</p>
-                    <p><strong className="text-foreground">Build:</strong> An AI proposal-generation agent that assembles context, drafts sections, and checks requirements automatically.</p>
+                    <p><strong className="text-foreground">Problem:</strong> Japanese language learning tools are often poorly designed for motivated beginners.</p>
+                    <p><strong className="text-foreground">Build:</strong> EdTech tools for vocabulary practice, listening support, and JLPT-style learning with a beginner-friendly UX.</p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-6 pt-5 border-t border-border">
-                    {["AI agents", "proposal generation", "enterprise AI"].map((tag) => (
-                      <span key={tag} className="px-2 py-1 bg-violet-50 text-violet-700 border border-violet-200 rounded text-xs">{tag}</span>
+                    {["EdTech", "Language learning", "UX", "JLPT"].map((tag) => (
+                      <span key={tag} className="px-2 py-1 bg-rose-50 text-rose-700 border border-rose-200 rounded text-xs">{tag}</span>
                     ))}
                   </div>
                 </div>
@@ -312,36 +319,29 @@ export default function Home() {
                 </div>
               </motion.div>
 
-              {/* Project 5: NihongoFlash */}
+              {/* Project 5: Kingmaker */}
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}
-                className="group bg-card rounded-2xl p-8 border border-border flex flex-col h-full hover:border-rose-300 hover:shadow-lg hover:shadow-rose-100 transition-all duration-300 relative overflow-hidden">
-                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-rose-400 to-rose-600 rounded-l-2xl" />
+                className="group bg-card rounded-2xl p-8 border border-border flex flex-col h-full hover:border-violet-300 hover:shadow-lg hover:shadow-violet-100 transition-all duration-300 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-violet-400 to-violet-600 rounded-l-2xl" />
                 <div className="pl-4 flex flex-col h-full">
                   <div className="flex justify-between items-start mb-5">
                     <div>
-                      <span className="text-xs font-mono text-rose-600 uppercase tracking-wider font-bold">EdTech</span>
-                      <h3 className="text-2xl font-bold mt-1">NihongoFlash / KikiJLPT</h3>
+                      <span className="text-xs font-mono text-violet-600 uppercase tracking-wider font-bold">Workflow Automation</span>
+                      <h3 className="text-2xl font-bold mt-1">Kingmaker</h3>
                     </div>
-                    <div className="flex gap-1.5">
-                      <a href="https://github.com/abdatta/nihongo-flash" target="_blank" rel="noreferrer"
-                        className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
-                        data-testid="link-github-nihongo">
-                        <SiGithub className="w-5 h-5" />
-                      </a>
-                      <a href="https://github.com/abdatta/kiki-jlpt" target="_blank" rel="noreferrer"
-                        className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
-                        data-testid="link-github-kiki">
-                        <SiGithub className="w-5 h-5" />
-                      </a>
-                    </div>
+                    <a href="https://github.com/abdatta/kingmaker" target="_blank" rel="noreferrer"
+                      className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
+                      data-testid="link-github-kingmaker">
+                      <SiGithub className="w-5 h-5" />
+                    </a>
                   </div>
                   <div className="space-y-3 flex-grow text-sm text-muted-foreground">
-                    <p><strong className="text-foreground">Problem:</strong> Japanese language learning tools are often poorly designed for motivated beginners.</p>
-                    <p><strong className="text-foreground">Build:</strong> EdTech tools for vocabulary practice, listening support, and JLPT-style learning with a beginner-friendly UX.</p>
+                    <p><strong className="text-foreground">Problem:</strong> Turning complex opportunities into structured, high-quality proposals takes enormous human effort.</p>
+                    <p><strong className="text-foreground">Build:</strong> An AI proposal-generation agent that assembles context, drafts sections, and checks requirements automatically.</p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-6 pt-5 border-t border-border">
-                    {["EdTech", "Language learning", "UX", "JLPT"].map((tag) => (
-                      <span key={tag} className="px-2 py-1 bg-rose-50 text-rose-700 border border-rose-200 rounded text-xs">{tag}</span>
+                    {["AI agents", "proposal generation", "enterprise AI"].map((tag) => (
+                      <span key={tag} className="px-2 py-1 bg-violet-50 text-violet-700 border border-violet-200 rounded text-xs">{tag}</span>
                     ))}
                   </div>
                 </div>
