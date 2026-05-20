@@ -194,7 +194,7 @@ export default function Home() {
                     <Zap className="w-3 h-3" /> Featured Project
                   </span>
                   <span className="px-3 py-1 rounded-md bg-amber-50 text-amber-700 text-xs font-mono border border-amber-200">
-                    Internal Microsoft — no public demo
+                    Internal Microsoft
                   </span>
                 </div>
                 <h3 className="text-3xl font-bold">AI Playwright Copilot</h3>
