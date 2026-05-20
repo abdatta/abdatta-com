@@ -1,24 +1,26 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { ArrowRight, ChevronRight, Mail, MapPin, Code2, Cpu, Wrench, Database, LineChart, MessageSquare, Briefcase, Building2, ExternalLink, Zap, Globe } from "lucide-react";
 import { SiGithub } from "react-icons/si";
 import headshot from "@assets/ChatGPT_Image_Apr_24,_2026,_03_56_07_PM_1779248386830.png";
 
-const FADE_UP = {
+const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
+
+const FADE_UP: Variants = {
   hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: EASE_OUT } }
 };
 
-const STAGGER = {
+const STAGGER: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.08 } }
 };
 
-const HERO_FADE_UP = {
+const HERO_FADE_UP: Variants = {
   hidden: { opacity: 0, y: 16 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.22, 1, 0.36, 1] } }
+  visible: { opacity: 1, y: 0, transition: { duration: 0.4, ease: EASE_OUT } }
 };
 
-const HERO_STAGGER = {
+const HERO_STAGGER: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.06, delayChildren: 0.05 } }
 };

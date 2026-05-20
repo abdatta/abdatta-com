@@ -1,45 +1,44 @@
-# [Project name]
+# Abhishek Datta Personal Site
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Static personal landing page built with React and Vite.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- `pnpm run dev` - run the Vite dev server locally
+- `pnpm run typecheck` - full typecheck across all packages
+- `pnpm run build` - typecheck and build the static site
+- `pnpm run preview` - preview the production build locally
+- No required runtime environment variables
 
 ## Stack
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- pnpm workspaces, Node.js, TypeScript
+- Frontend: React, Vite, Tailwind CSS
+- Hosting: GitHub Pages through GitHub Actions
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/personal-site` - deployable landing page
+- `.github/workflows/deploy-pages.yml` - GitHub Pages deployment workflow
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Static-only site: no API server, database, or serverless runtime.
+- `BASE_PATH` controls the Vite asset base for GitHub Pages; local development defaults to `/`.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Personal portfolio landing page for Abhishek Datta.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Keep this repository static-only.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- In GitHub Pages settings, use **GitHub Actions** as the Pages source.
+- Set repository variable `PAGES_BASE_PATH=/` when deploying to a custom domain or a user Pages repo.
 
 ## Pointers
 
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- See `README.md` for local and deployment commands.
