@@ -291,7 +291,7 @@ export default function Home() {
                 </div>
               </motion.div>
 
-              {/* Project 4: WhatsApp AI */}
+              {/* Project 4: WhatsApp Pulse */}
               <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={FADE_UP}
                 className="group bg-card rounded-2xl p-8 border border-border flex flex-col h-full hover:border-emerald-300 hover:shadow-lg hover:shadow-emerald-100 transition-all duration-300 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-emerald-400 to-emerald-600 rounded-l-2xl" />
@@ -299,7 +299,7 @@ export default function Home() {
                   <div className="flex justify-between items-start mb-5">
                     <div>
                       <span className="text-xs font-mono text-emerald-600 uppercase tracking-wider font-bold">Consumer AI</span>
-                      <h3 className="text-2xl font-bold mt-1">WhatsApp AI Layer</h3>
+                      <h3 className="text-2xl font-bold mt-1">WhatsApp Pulse</h3>
                     </div>
                     <a href="https://github.com/abdatta/wapp-pulse" target="_blank" rel="noreferrer"
                       className="text-muted-foreground hover:text-foreground transition-colors p-1.5 rounded-lg hover:bg-muted"
@@ -308,11 +308,11 @@ export default function Home() {
                     </a>
                   </div>
                   <div className="space-y-3 flex-grow text-sm text-muted-foreground">
-                    <p><strong className="text-foreground">Problem:</strong> WhatsApp is a serious work tool but lacks organization, search, and intelligence.</p>
-                    <p><strong className="text-foreground">Build:</strong> An AI layer that organizes chats into threads, surfaces insights, and supports scheduling via natural language.</p>
+                    <p><strong className="text-foreground">Problem:</strong> Messy inbound WhatsApp activity makes it hard to see what needs attention, which threads matter, and what was said about a topic.</p>
+                    <p><strong className="text-foreground">Build:</strong> A private, local, read-only dashboard that organizes conversations, prioritizes active threads, and answers questions with message evidence.</p>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-6 pt-5 border-t border-border">
-                    {["messaging intelligence", "workflow automation", "consumer AI"].map((tag) => (
+                    {["personal inbox", "semantic search", "private AI", "read-only"].map((tag) => (
                       <span key={tag} className="px-2 py-1 bg-emerald-50 text-emerald-700 border border-emerald-200 rounded text-xs">{tag}</span>
                     ))}
                   </div>
